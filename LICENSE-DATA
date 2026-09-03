@@ -11,5 +11,6 @@ Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
 Applies to: protocol.md, aoi/, results/, docs/, README.md
 Code in src/ is licensed separately under MIT — see LICENSE.
 
-Source data: Sentinel-1 RTC accessed via the Microsoft Planetary Computer.
-Contains modified Copernicus Sentinel data, processed by ESA and by Microsoft.
+Source data: Contains modified Copernicus Sentinel data 2015-2026.
+Sentinel-1 RTC products accessed via the Microsoft Planetary Computer, which
+performs the radiometric terrain correction.

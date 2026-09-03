@@ -185,7 +185,7 @@ Separate from and not part of that thesis, which concerns port activity.
 **Licences.** Code under [MIT](LICENSE). Protocol, registry and results under
 [CC-BY-4.0](LICENSE-DATA) — fork the method freely, keep the attribution.
 
-**Data.** Sentinel-1 RTC via the
+**Data.** Contains modified Copernicus Sentinel data 2015-2026. Sentinel-1 RTC
+products accessed via the
 [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc),
-derived from Copernicus Sentinel data. Contains modified Copernicus Sentinel
-data, processed by ESA and by Microsoft.
+which performs the radiometric terrain correction.
