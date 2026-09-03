@@ -1,0 +1,15 @@
+Protocol, area-of-interest registry, results and documentation in this
+repository are licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit to Philip McManus /
+Tectonic Space, link to the licence, and indicate if changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Applies to: protocol.md, aoi/, results/, docs/, README.md
+Code in src/ is licensed separately under MIT — see LICENSE.
+
+Source data: Sentinel-1 RTC accessed via the Microsoft Planetary Computer.
+Contains modified Copernicus Sentinel data, processed by ESA and by Microsoft.

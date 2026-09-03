@@ -1,0 +1,295 @@
+{
+ "type": "FeatureCollection",
+ "name": "tko_dc_aoi_v2",
+ "protocol_version": "tectonic_dc_v1",
+ "panel_spec_id": "s1a_tko_dc_v1",
+ "site_group": "tko_innopark_dc_cluster",
+ "supersedes": "tko_dc_aoi_v1",
+ "hash_convention": "sha256(json.dumps(geometry, sort_keys=True, separators=(\",\",\":\")))",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.27086607896979,
+       22.28546505080849
+      ],
+      [
+       114.27248613321478,
+       22.284849547191293
+      ],
+      [
+       114.27315132105048,
+       22.286239390219787
+      ],
+      [
+       114.271445436117,
+       22.2868548877179
+      ],
+      [
+       114.27086607896979,
+       22.28546505080849
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "aoi_variant_id": "T1_ntt_fdc__v1",
+    "aoi_role": "treatment",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "NTT Hong Kong Financial Data Centre (FDC1 + FDC2 + command tower), 6 Chun Kwong Street, TKO InnoPark",
+    "surface_class": "operational_dc_campus",
+    "area_m2": 30893.5,
+    "area_ha": 3.0894,
+    "geometry_sha256": "e8853a462216c8878293d1f6d195569cee2f03a01f5e7dae221f5c4bccb4f57d",
+    "crs": "EPSG:4326",
+    "source": "hand_delineated_gee",
+    "outcome_blind": false,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "px_10m_nominal_from_area": 309,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.2733527,
+       22.2858299
+      ],
+      [
+       114.2729292,
+       22.2848997
+      ],
+      [
+       114.2733687,
+       22.2847284
+      ],
+      [
+       114.2737922,
+       22.2856586
+      ],
+      [
+       114.2733527,
+       22.2858299
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "aoi_variant_id": "C1_hkex_dc__v1",
+    "aoi_role": "control",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "HKEX Tseung Kwan O Data Centre building footprint (OSM way 290393396)",
+    "surface_class": "operational_dc_single_building",
+    "area_m2": 5519.6,
+    "area_ha": 0.552,
+    "geometry_sha256": "74b77e1136a6f70093f706c75e9a0d171199ead61f129c1681d83dc3a97441a3",
+    "crs": "EPSG:4326",
+    "source": "openstreetmap_footprint",
+    "outcome_blind": true,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "px_10m_nominal_from_area": 55,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "aoi_variant_id": "C2b_amc__v2",
+    "aoi_role": "positive_control",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "Advanced Manufacturing Centre, 18 Chun Cheong Street, TKO InnoPark. Site polygon supplied by the analyst 2026-09-03, replacing the partial OSM building footprint used in v1. Built 2018-2022; completed February/April 2022 (HKSTP). Reclassified from control to positive control after v1 measurement showed a large cross-orbit-consistent construction ramp.",
+    "surface_class": "construction_2018_2022_then_operational",
+    "area_m2": 26268.0,
+    "area_ha": 2.6268,
+    "geometry_sha256": "07f15ea14964d02bfbc7b3e548e9aeb9aa55673e5d9f094dd61e42a9eccfdbbd",
+    "crs": "EPSG:4326",
+    "source": "analyst-drawn polygon, GEE, 2026-09-03",
+    "outcome_blind": true,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "supersedes": "C2_amc__v1",
+    "px_10m_nominal_from_area": 260,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.27371723628339,
+       22.28753860234842
+      ],
+      [
+       114.27210791087445,
+       22.288134239594978
+      ],
+      [
+       114.27150709605512,
+       22.286903253154637
+      ],
+      [
+       114.27313787913617,
+       22.286357247634143
+      ],
+      [
+       114.27371723628339,
+       22.28753860234842
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.2707032,
+       22.2849666
+      ],
+      [
+       114.2721891,
+       22.2848972
+      ],
+      [
+       114.2721462,
+       22.2843412
+      ],
+      [
+       114.2706603,
+       22.2844206
+      ],
+      [
+       114.2707032,
+       22.2849666
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "aoi_variant_id": "P1_vacant__v1",
+    "aoi_role": "placebo",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "Undeveloped scrub/bare lot south-west of FDC parcel",
+    "surface_class": "bare_ground_no_works",
+    "area_m2": 9424.6,
+    "area_ha": 0.9425,
+    "geometry_sha256": "6c658ecdcdab714ca031a91d7f51d887f02e0867237afbf70c8d60b8ce0fb50f",
+    "crs": "EPSG:4326",
+    "source": "hand_delineated_imagery",
+    "outcome_blind": true,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "px_10m_nominal_from_area": 94,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.2705047,
+       22.2874733
+      ],
+      [
+       114.2711967,
+       22.2874733
+      ],
+      [
+       114.2711967,
+       22.286699
+      ],
+      [
+       114.2705047,
+       22.286699
+      ],
+      [
+       114.2705047,
+       22.2874733
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "aoi_variant_id": "X1_build_slab__v1",
+    "aoi_role": "positive_control",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "Structural slab/superstructure of active build on TKO waterfront lot north-west of FDC",
+    "surface_class": "active_construction_structure",
+    "area_m2": 6143.8,
+    "area_ha": 0.6144,
+    "geometry_sha256": "52f14ded0c27dfdf7ec736edb4d5e7539b9090aab68ff15d88c59d60a32896dc",
+    "crs": "EPSG:4326",
+    "source": "hand_delineated_imagery",
+    "outcome_blind": false,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "px_10m_nominal_from_area": 61,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       114.2699203,
+       22.2876669
+      ],
+      [
+       114.271245,
+       22.2876073
+      ],
+      [
+       114.271245,
+       22.2866146
+      ],
+      [
+       114.2699417,
+       22.2866642
+      ],
+      [
+       114.2699203,
+       22.2876669
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "aoi_variant_id": "X2_build_site__v1",
+    "aoi_role": "positive_control",
+    "site_group": "tko_innopark_dc_cluster",
+    "description": "Full site boundary of the same active build incl. laydown, huts and cranes",
+    "surface_class": "active_construction_site",
+    "area_m2": 15025.3,
+    "area_ha": 1.5025,
+    "geometry_sha256": "f780dd4acd4655074879e673cce200f7c5df16ab14c0a0da11c83eae7e4e8e7c",
+    "crs": "EPSG:4326",
+    "source": "hand_delineated_imagery",
+    "outcome_blind": false,
+    "geometry_frozen": true,
+    "protocol_version": "tectonic_dc_v1",
+    "px_10m_nominal_from_area": 150,
+    "note_pixel_count": "Nominal = area_m2/100. The measured count on the analysis grid is reported in results/qa_pixel_counts.csv and differs by a few pixels because of polygon rasterisation."
+   }
+  }
+ ],
+ "registry_sha256": "361eb150c4d3e6661af8d47fed6ee3294665bf0f9792f2a5e3a6f62a3705f5b0"
+}

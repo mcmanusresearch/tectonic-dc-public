@@ -1,0 +1,7 @@
+aoi_variant_id,aoi_role,frozen_2026h1_db,extension_db,delta_db
+T1_ntt_fdc__v1,treatment,-0.34,-0.3,0.04
+C1_hkex_dc__v1,control,-11.15,-11.79,-0.65
+P1_vacant__v1,placebo,-10.76,-10.92,-0.16
+C2b_amc__v2,positive_control,-1.83,-1.49,0.34
+X1_build_slab__v1,positive_control,-7.63,-4.2,3.44
+X2_build_site__v1,positive_control,-4.58,-1.91,2.66

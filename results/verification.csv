@@ -1,0 +1,7 @@
+aoi_variant_id,aoi_role,onset_o11,onset_o113,accepted,rise_o11_db,rise_o113_db
+T1_ntt_fdc__v1,treatment,,,False,-4.68,0.96
+C1_hkex_dc__v1,control,,,False,-1.4,-1.57
+P1_vacant__v1,placebo,,,False,0.21,2.02
+C2b_amc__v2,positive_control,2018Q2,2018Q2,True,10.84,11.31
+X1_build_slab__v1,positive_control,2017Q1,2017Q1,True,4.71,7.71
+X2_build_site__v1,positive_control,2017Q1,2017Q1,True,6.08,7.76

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Data centre construction measured from Sentinel-1 radar, Tseung Kwan O"
+message: "If you use this protocol or these results, please cite it."
+type: dataset
+authors:
+  - family-names: McManus
+    given-names: Philip
+    affiliation: Tectonic Space
+repository-code: "https://github.com/mcmanusresearch/tectonic-dc-public"
+license: CC-BY-4.0
+date-released: 2026-09-03
+keywords:
+  - synthetic aperture radar
+  - Sentinel-1
+  - data centres
+  - construction monitoring
+  - reproducible measurement

@@ -1,0 +1,8 @@
+step,remaining,dropped
+0 candidate scenes over cluster,621,0
+1 instrument mode IW,621,0
+2 polarizations include VV and VH,621,0
+3 orbit pass ascending,620,1
+"4 relative orbit in {11, 113}",620,0
+5 platform Sentinel-1A only,608,12
+6 footprint contains cluster hull,608,0
