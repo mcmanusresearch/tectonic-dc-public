@@ -1,7 +1,7 @@
 # Data centre construction, measured from radar — and checkable to the pixel
 
 A working, reproducible measurement of construction activity at a data centre
-cluster in Tseung Kwan O, Hong Kong, from 608 Sentinel-1 radar scenes spanning
+cluster in Asia, from 608 Sentinel-1 radar scenes spanning
 eleven years.
 
 Clone it and run `./run.sh`. No account, no API key, no licence. About a minute
