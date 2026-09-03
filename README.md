@@ -4,9 +4,7 @@ A working, reproducible measurement of construction activity at a data centre
 cluster in Asia, from 608 Sentinel-1 radar scenes spanning
 eleven years.
 
-Clone it and run `./run.sh`. No account, no API key, no licence. About a minute
-later you will have the table below, computed from the same public scenes, or
-you will have found something wrong with it. Both outcomes are the point.
+Clone it and run `./run.sh`. No account, no API key, no licence. 
 
 ```
 git clone https://github.com/mcmanusresearch/tectonic-dc-public
